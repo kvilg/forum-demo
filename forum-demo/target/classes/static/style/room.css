@@ -1,0 +1,54 @@
+.room-item {
+    background-color: #313131;
+    border-radius: 10px;
+    width: 100%;
+    margin-bottom: 10px;
+    color: #ffffff;
+    cursor: default;
+}
+
+.room-container {
+    margin: auto;
+    width: 80%;
+    padding: 2% 0;
+}
+
+.flex-room {
+    display: flex;
+    justify-content: space-between;
+    justify-items: center;
+}
+
+.user-img-flex-w {
+    width: 10%;
+}
+
+.img-usr {
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    background-color: #969696;
+}
+
+.info-room {
+    width: 90%;
+}
+
+.name-usr {
+    font-size: 25px;
+}
+
+.massage-room {
+    font-size: 15px;
+}
+
+.namber-room {
+    background-color: #969696;
+    border-radius: 60px;
+    min-width: 25px;
+    height: 25px;
+}
+
+.namber {
+    text-align: center;
+}

@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html id="body" lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" th:href="@{/style/main.css}">
+
+    <title>Document</title>
+</head>
+
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="nav-block">
+                <div class="nav">
+                    <div class="main-logo cursor-static">
+                        Main
+                    </div>
+                    <div class="nav-l">
+                        <a href="/collect" class="nav-item">Collect</a>
+                        <a href="/friend" class="nav-item">Frend</a>
+                        <a href="/messenger" class="nav-item">Massage</a>
+                        <a href="/home" class="nav-item">Home</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section class="content">
+        <div class="container">
+            <div class="search-block">
+                <div class="room-container">
+                    <div class="search-flex">
+                        <input class="text-field__input" id="login" type="text" name="login" placeholder="login">
+                        <input class="text-field__input" id="username" type="text" name="username" placeholder="username">
+                        <input class="text-field__input" id="password" type="password" name="password" placeholder="password">
+                        <div class="room-btn" id="btn-reg">
+                            registration
+                        </div>
+                        <div id="reg-info"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+    <footer class="footer">
+        <div class="container">
+            <div class="nav-block">
+                <div class="nav">
+                    <div class="main-logo cursor-static">
+                        Main
+                    </div>
+                    <div class="nav-l">
+                        <a class="nav-item">Collect</a>
+                        <a class="nav-item">Frend</a>
+                        <a class="nav-item">Massage</a>
+                        <a class="nav-item active">Home</a>
+                    </div>
+                </div>
+            </div>
+            <div class="collect-block">
+                <div class="collect-l">
+                    <a class="collect-item">Blog</a>
+                    <a class="collect-item">LinkedIn</a>
+                    <a class="collect-item">Support</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <script type="text/javascript" th:src="@{/js/home.js}"></script>
+    <script type="text/javascript" th:src="@{/js/registration.js}"></script>
+    
+</body>
+
+</html>

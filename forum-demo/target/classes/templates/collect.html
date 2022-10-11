@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" th:href="@{/style/main.css}">
+
+    <title>Document</title>
+</head>
+
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="nav-block">
+                <div class="nav">
+                    <div class="main-logo cursor-static">
+                        Main
+                    </div>
+                    <div class="nav-l">
+                        <a href="/collect" class="nav-item active">Collect</a>
+                        <a href="/friend" class="nav-item">Frend</a>
+                        <a href="/messenger" class="nav-item">Massage</a>
+                        <a href="/home" class="nav-item">Home</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+
+
+    <section class="content">
+        <div class="container">
+            <div class="search-block">
+                <div class="room-container">
+                    <div class="search-flex">
+
+                        <input class="text-field__input" type="text" name="username" placeholder="Find by name">
+                        <input class="text-field__input" type="text" name="username" placeholder="Find by tag">
+                        <div class="room-btn">
+                            Find the room
+                        </div>
+
+                        <div class="room-btn">
+                            Create the room
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <div class="rooms">
+
+                <div class="room-item  cursor-static">
+                    <div class="room-container ">
+                        <div class="room-name">name room</div>
+                        <div class="room-flex">
+                            <div class="room-main-info">
+                                <div class="room-tags">
+                                    <div class="room-tag">#tag1</div>
+                                    <div class="room-tag">#tag2</div>
+                                    <div class="room-tag">#tag3</div>
+                                    <div class="room-tag">#tag4</div>
+                                    <div class="room-tag">#tag5</div>
+                                    <div class="room-tag">#tag6</div>
+                                    <div class="room-tag">#tag7</div>
+                                    <div class="room-tag">#tag8</div>
+                                </div>
+                                <div class="width-50p">
+                                    <div class="room-btn mrgt-20">
+                                        Enter the room
+                                    </div>
+                                </div>
+
+
+                            </div>
+                            <div class="room-raiting">
+                                <div class="namber-massage">100 messages</div>
+                                <div class="namber-user">5 users</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+            </div>
+        </div>
+    </section>
+
+
+
+    <footer class="footer">
+        <div class="container">
+            <div class="nav-block">
+                <div class="nav">
+                    <div class="main-logo cursor-static">
+                        Main
+                    </div>
+                    <div class="nav-l">
+                        <a class="nav-item active">Collect</a>
+                        <a class="nav-item">Frend</a>
+                        <a class="nav-item">Massage</a>
+                        <a class="nav-item">Home</a>
+                    </div>
+                </div>
+            </div>
+            <div class="collect-block">
+                <div class="collect-l">
+                    <a class="collect-item">Blog</a>
+                    <a class="collect-item">LinkedIn</a>
+                    <a class="collect-item">Support</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+
+</body>
+
+</html>
